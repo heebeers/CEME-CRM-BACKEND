@@ -1,0 +1,28 @@
+POST http://localhost:8080/customers/ HTTP/1.1
+content-type: application/json
+
+{
+        "firstName": "boom",
+        "middleName": "bah",
+        "lastName": "sis boom bah",
+        "currentAddressLine1": "123 abc",
+        "currentAddressLine2": "suite def",
+        "currentAddressCity": "Rookago",
+        "currentAddressState": "RI",
+        "currentAddresszip": "12345",
+        "currentAddressAddedDate": "2020-06-23T18:25:43.511Z",
+        "previousAddressLine1": "321cba",
+        "previousAddressLine2": "apartment fed",
+        "previousAddressCity": "Ogakoor",
+        "previousAddressState": "IR",
+        "previousAddresszip": "54321",
+        "previousAddressAddedDate": "2010-06-23T18:25:43.511Z",
+        "serviceStartDate": "2000-06-23T18:25:43.511Z",
+        "dateOfBirth": null,
+        "email": "boo@rah.net",
+        "customerPhone": "123456789",
+        "preferredContact": "email",
+        "secondaryCustomerContact": "mobile",
+        "products": "home; auto; boat",
+        "activeCustomer": true
+}

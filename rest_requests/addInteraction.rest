@@ -1,0 +1,13 @@
+POST http://localhost:8080/interactions/ HTTP/1.1
+content-type: application/json
+
+{
+  "customerId": "00000000c3f2e4605ac7635b",
+  "employeeId": "5f4d3b15165b200d0474f070",
+  "interactionDate": "2020-02-31T17:59:59.024Z",
+  "interactionFollowUpType": "phone",
+  "interactionNotes": "even less notes to be found here",
+  "interactionType": "email",
+  "iteractionFollowUpDate": "2020-10-31T17:59:59.024Z",
+  "priorityLevel": 5
+}
